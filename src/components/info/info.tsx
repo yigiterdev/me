@@ -12,7 +12,7 @@ function Info() {
       <div>
         <Image
           className="mx-auto mb-5 rounded-full"
-          src={"/profile-img.png"}
+          src={"/profile-img.jpg"}
           alt="Profile"
           width="200"
           height="200"
