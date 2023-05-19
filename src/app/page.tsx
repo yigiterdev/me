@@ -1,9 +1,14 @@
-import Image from "next/image";
+import About from "@/components/about/about";
+import Info from "@/components/info/info";
 
-export default function Home() {
+function Home() {
   return (
-    <main>
-      <></>
+    <main className="typography--body">
+      <Info />
+
+      <About />
     </main>
   );
 }
+
+export default Home;

@@ -3,25 +3,66 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background: #1a1a1a;
+  --main-color: #ffffff;
+  --secondary-color: #cacacc;
+  --lime: #a0dd1d;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background: #1a1a1a;
+    --main-color: #f8fafc;
+    --secondary-color: #cacacc;
+    --lime: #a0dd1d;
   }
 }
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  scroll-behavior: smooth !important;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--main-color);
+  background: var(--background);
+
+  font-size: 14px;
+  line-height: 22px;
+}
+
+a {
+  color: var(--lime);
+  text-decoration: none;
+}
+
+.text-color--main {
+  color: var(--main-color);
+}
+
+.text-color--secondary {
+  color: var(--secondary-color);
+}
+
+.text-color--lime {
+  color: var(--lime);
+}
+
+.card {
+  padding: 20px;
+
+  background: #242424;
+
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1),
+    0px 2px 4px -1px rgba(0, 0, 0, 0.16);
+  border-radius: 16px;
+
+  text-align: center;
+}
+
+.card .icon {
+  width: 72px;
+  height: 72px;
 }
