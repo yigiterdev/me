@@ -3,12 +3,10 @@ import Image from "next/image";
 function WorkExperience() {
   return (
     <div className="card">
-      <h1 className="typography--h2 mb-3 text-color--lime text-left md:text-center">
-        WORK EXPERIENCE
-      </h1>
+      <h1 className="typography--h2 mb-3 text-color--lime text-left">WORK EXPERIENCE</h1>
 
       <div>
-        <div className="py-3 flex items-center justify-between">
+        <div className="py-3 block md:flex items-center justify-between">
           <div className="flex gap-3 items-center">
             <Image
               className="rounded-md"
@@ -23,11 +21,11 @@ function WorkExperience() {
               <h2 className="typography--tiny text-color--secondary text-left">
                 FRONTEND DEVELOPER
               </h2>
-            </div>
-          </div>
 
-          <div className="text-right typography--tiny text-color--secondary">
-            2021 - Present
+              <div className="text-left typography--tiny text-color--secondary">
+                June 2021 - Present
+              </div>
+            </div>
           </div>
         </div>
 
@@ -46,11 +44,11 @@ function WorkExperience() {
               <h2 className="typography--tiny text-color--secondary text-left">
                 FRONTEND DEVELOPER
               </h2>
-            </div>
-          </div>
 
-          <div className="text-right typography--tiny text-color--secondary">
-            2022 - Present
+              <div className="text-left typography--tiny text-color--secondary">
+                June 2022 - Present
+              </div>
+            </div>
           </div>
         </div>
 
@@ -65,15 +63,15 @@ function WorkExperience() {
             />
 
             <div>
-              <h1 className="text-left">JamLab</h1>
+              <h1 className="text-left">JAMLAB</h1>
               <h2 className="typography--tiny text-color--secondary text-left">
-                WEB DEVELOPMENT INTERN
+                WEB DEVELOPER INTERN
               </h2>
-            </div>
-          </div>
 
-          <div className="text-right typography--tiny text-color--secondary">
-            2021 - 2021
+              <div className="text-left typography--tiny text-color--secondary">
+                December 2021 - April 2022
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ import WorkExperience from "../experience/experience";
 
 function About() {
   return (
-    <div id="about-section" className="p-10 min-h-screen max-w-2xl m-auto">
+    <div id="about-section" className="px-4 py-10 md:px-10 min-h-screen max-w-2xl m-auto">
       <div className="card mb-10">
         <h1 className="typography--h2 mb-3 text-color--lime text-left md:text-center">
           TECH STACK
@@ -24,11 +24,9 @@ function About() {
       </div>
 
       <div className="card mb-10">
-        <h1 className="typography--h2 mb-3 text-color--lime text-left md:text-center">
-          ABOUT
-        </h1>
+        <h1 className="typography--h2 mb-3 text-color--lime text-left">ABOUT</h1>
 
-        <p className="text-left md:text-center">
+        <p className="text-left">
           My name is Ahmet Bugra Yigiter, and I reside in Ankara. I have three years of
           experience as a frontend developer. During this time, I have been actively
           engaged in various projects within the frontend domain. Notably, I have

@@ -2,7 +2,7 @@
   font-size: 52px;
   font-weight: 700;
   line-height: 58px;
-  letter-spacing: -2.6px;
+  letter-spacing: -0.69px;
 }
 
 .typography--h1 {
@@ -40,4 +40,36 @@
   letter-spacing: -0.01px;
 
   text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px) {
+  .typography--display {
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  .typography--h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .typography--h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .typography--h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .typography--body {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .typography--tiny {
+    font-size: 12px;
+    line-height: 20px;
+  }
 }

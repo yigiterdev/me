@@ -10,7 +10,7 @@ import Link from "next/link";
 
 function Info() {
   return (
-    <div className="min-h-screen pt-24 pb-10 flex flex-col items-center justify-between">
+    <div className="min-h-screen pt-24 pb-10 md:px-10 px-6 flex flex-col items-center justify-between">
       <div>
         <Image
           className="mx-auto mb-5 rounded-full"
