@@ -3,7 +3,9 @@ import Image from "next/image";
 function WorkExperience() {
   return (
     <div className="card">
-      <h1 className="typography--h2 mb-3 text-color--lime">WORK EXPERIENCE</h1>
+      <h1 className="typography--h2 mb-3 text-color--lime text-left md:text-center">
+        WORK EXPERIENCE
+      </h1>
 
       <div>
         <div className="py-3 flex items-center justify-between">
@@ -24,7 +26,9 @@ function WorkExperience() {
             </div>
           </div>
 
-          <div className="text-right typography--tiny">2021 - Present</div>
+          <div className="text-right typography--tiny text-color--secondary">
+            2021 - Present
+          </div>
         </div>
 
         <div className="py-3 flex items-center justify-between">
@@ -45,7 +49,9 @@ function WorkExperience() {
             </div>
           </div>
 
-          <div className="text-right typography--tiny">2022 - Present</div>
+          <div className="text-right typography--tiny text-color--secondary">
+            2022 - Present
+          </div>
         </div>
 
         <div className="py-3 flex items-center justify-between">
@@ -66,7 +72,9 @@ function WorkExperience() {
             </div>
           </div>
 
-          <div className="text-right typography--tiny">2021 - 2021</div>
+          <div className="text-right typography--tiny text-color--secondary">
+            2021 - 2021
+          </div>
         </div>
       </div>
     </div>

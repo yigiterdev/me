@@ -1,3 +1,5 @@
+import "./info.css";
+
 import ArrowDownIcon from "@/styles/icon/arrowdown";
 import GithubIcon from "@/styles/icon/github";
 import LinkedinIcon from "@/styles/icon/linkedin";
